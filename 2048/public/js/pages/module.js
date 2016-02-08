@@ -1,0 +1,1 @@
+angular.module("app.pages",['app.pages.game','app.pages.done']);

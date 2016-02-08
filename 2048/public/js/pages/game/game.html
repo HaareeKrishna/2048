@@ -1,0 +1,19 @@
+<div class="gameContainer">
+	<get-grid></get-grid>
+	<div class="info">
+		<h2>{{playerName}}</h2>
+		<span>
+			<h4 class="score">SCORE<br/></h4>
+			<h1 class="num">{{currScore}}</h1>
+		</span>
+		<span>
+			<h4 class="score">HIGH SCORE<br/></h4>
+			<h1 class="num">{{highScore}}</h1>
+		</span>
+		<div class="giveUp">
+			<button><a href="/game/{{playerName}}/score?score={{currScore}}">GiveUp?</a></button>
+		</div>
+	</div>
+	
+
+</div>

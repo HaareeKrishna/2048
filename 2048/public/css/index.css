@@ -1,0 +1,21 @@
+body{
+	background-color: #0A2027;
+
+}
+a{
+	text-decoration: none;
+	color: inherit;
+}
+.scores{
+	padding-top: 200px;
+    text-align: center;
+}
+h3{
+	    color: rgba(100, 198, 210, 0.35);
+	margin:0px;
+}
+.scores h1{
+	margin:5px;
+	color: #52E4FF;
+	font-size: 68px;
+}

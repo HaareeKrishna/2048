@@ -1,0 +1,13 @@
+
+
+	<div class="gridBody">
+		
+		<table ng-show="gameStatus">
+			<tr ng-repeat="gridCol in grid._data track by $index">
+				<td class="class_{{gridRow}}"  ng-repeat="gridRow in gridCol track by $index">
+				<span ng-if="gridRow!=0">{{gridRow}}</span></td>
+			</tr>
+		</table>
+		
+	</div>
+	

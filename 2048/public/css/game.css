@@ -1,0 +1,128 @@
+.gameContainer{
+	margin:150px 0px 0px 150px;
+	padding:0px 0px 0px 350px;
+	font-size: 20px;
+    display: inline-block;
+}
+.gridBody{
+	display: inline-block;
+	float: left;
+}
+table {
+  border: 1px solid black;
+  border-collapse: collapse;
+  padding: 5px;
+  float: left;
+}
+.giveUp{
+	text-align: center;
+}
+.giveUp button{
+	background-color: rgba(89, 160, 222, 0.14);
+    border: 1px solid #3A967E;
+    padding: 10px 50px;
+    color: #A4E0F9;
+    cursor: pointer;
+}
+.class_0{
+
+}
+.class_4{
+	background-color:rgba(55, 147, 255, 0.49)
+
+}
+.class_8{
+	background-color:rgba(0, 186, 228, 0.47)
+}
+.class_2{
+	
+	background-color: rgba(104, 183, 220, 0.22)
+}
+.class_16{
+	background-color:rgba(4, 116, 111, 0.98)
+}
+.class_32{
+	background-color:rgb(7, 140, 140);
+}
+.class_64{
+    background-color: #0BB38C;
+}
+.class_128{
+    background-color: #118C59;
+}
+.class_256{
+    background-color: #0EBB53;
+}
+.class_512{
+	background-color: #098038;
+}
+.class_1024{
+	background-color: #05541E;
+}
+.class_2048{
+	background-color: #051D0C;
+}
+.info{
+	padding-left:150px;
+
+	display: inline-block;
+}
+.score{
+	text-align: center;
+    color: rgba(105, 157, 183, 0.17);
+}
+.info span{
+	display: inline-block;
+	float: left;
+	padding:0px 20px;
+}
+.info h2{
+	text-align: center;
+	color: #5DEDFF;	
+	text-transform: uppercase;
+}
+.num{
+	color: rgba(149, 230, 228, 0.74);
+	text-align: center;
+	font-size: 60px;
+}
+td{
+	color:white;
+	text-align: center;
+	width:70px;
+	height:70px;
+	border: 1px solid #333;
+	
+background: -moz-linear-gradient(top,  rgba(0,0,0,0) 0%, rgba(0,0,0,0.27) 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top,  rgba(0,0,0,0) 0%,rgba(0,0,0,0.27) 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom,  rgba(0,0,0,0) 0%,rgba(0,0,0,0.27) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00000000', endColorstr='#45000000',GradientType=0 ); /* IE6-9 */
+
+}
+.playerInfo{
+	padding-top:100px;
+	text-align:center;
+}
+.playerInfo h1{
+	font-size: 100px;
+    color: #90C1C1;
+}
+.playerName{
+	background-color: rgba(82, 162, 202, 0.21);
+    padding: 10px 20px;
+    border:0;
+}
+.playerButton{
+	cursor: pointer;
+	color: #78D8DA;
+	padding: 8px 21px;
+    background-color: rgba(5, 68, 63, 0.28);
+    border: 1px solid #1E525A;
+}
+.scores button{
+	cursor: pointer;
+    color: #78D8DA;
+    padding: 8px 21px;
+    background-color: rgba(5, 68, 63, 0.28);
+    border: 1px solid #1E525A;
+}
